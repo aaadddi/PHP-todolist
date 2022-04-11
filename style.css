@@ -59,7 +59,7 @@ Body{
     height: 8%;
 
   display: flex;
-
+    
     
 }
 .top>button{
@@ -123,6 +123,10 @@ Body{
     border:none;
     background-color: #91EAE4;
 }
+#taskbtns>button{
+    background-color: lightgrey;
+    
+}
 .taskbtns>button>img{
     height: 100%;
     width: 100%;
@@ -145,32 +149,29 @@ Body{
 .task>p{
    padding: 4px 4px; 
 }
-.bottom{
+/* .bottom{
     background:linear-gradient(to right,#7F7FD5,#7F7FD5,#91EAE4);
     width: 100%;
-    min-height: 8%;
+    min-height: 20%;
     height: fit-content;
 
     display: flex;
-    flex-direction: column;
+  
 }
-.bottom>form{
-    
-    width: 95%;
-    margin: auto;
-    align-items:center;
-    display: flex;
-}
-.bottom>form>input{
-    flex: 1;
+
+.newtask{
     margin-right: 10px;
     outline: none;
     padding: 3px 10px;
     border: none;
     border-radius: 10px;
+}
+.bottom>input{
+    
+    
     
 }
-.bottom>form>button{
+.bottom>button{
     height: 2em;
     width: 2em;
     border-radius:50px;
@@ -179,14 +180,14 @@ Body{
     border:none;
     background-color: #7F7FD5;
 }
-.bottom>form>button>img{
+.bottom>button>img{
     height: 100%;
     width: 100%;
     cursor: pointer;
 }
 .bottom>form>button:hover{
     box-shadow: 0 0.4px 10px #00000038;
-}
+} */
 
 
 
